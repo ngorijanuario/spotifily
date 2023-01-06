@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE8AC54296574B3002712F9 /* SpotiflyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8AC53296574B3002712F9 /* SpotiflyApp.swift */; };
+		FDE8AC56296574B3002712F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8AC55296574B3002712F9 /* ContentView.swift */; };
+		FDE8AC58296574B5002712F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE8AC57296574B5002712F9 /* Assets.xcassets */; };
+		FDE8AC5B296574B5002712F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE8AC5A296574B5002712F9 /* Preview Assets.xcassets */; };
+		FDE8AC65296574B6002712F9 /* SpotiflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8AC64296574B6002712F9 /* SpotiflyTests.swift */; };
+		FDE8AC6F296574B6002712F9 /* SpotiflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8AC6E296574B6002712F9 /* SpotiflyUITests.swift */; };
+		FDE8AC71296574B6002712F9 /* SpotiflyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8AC70296574B6002712F9 /* SpotiflyUITestsLaunchTests.swift */; };
+		FDE8AC7E29657646002712F9 /* splashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8AC7D29657646002712F9 /* splashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE8AC61296574B6002712F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE8AC48296574B3002712F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE8AC4F296574B3002712F9;
+			remoteInfo = Spotifly;
+		};
+		FDE8AC6B296574B6002712F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE8AC48296574B3002712F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE8AC4F296574B3002712F9;
+			remoteInfo = Spotifly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDE8AC50296574B3002712F9 /* Spotifly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotifly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE8AC53296574B3002712F9 /* SpotiflyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiflyApp.swift; sourceTree = "<group>"; };
+		FDE8AC55296574B3002712F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDE8AC57296574B5002712F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE8AC5A296574B5002712F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDE8AC60296574B6002712F9 /* SpotiflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotiflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE8AC64296574B6002712F9 /* SpotiflyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiflyTests.swift; sourceTree = "<group>"; };
+		FDE8AC6A296574B6002712F9 /* SpotiflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotiflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE8AC6E296574B6002712F9 /* SpotiflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiflyUITests.swift; sourceTree = "<group>"; };
+		FDE8AC70296574B6002712F9 /* SpotiflyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiflyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDE8AC7D29657646002712F9 /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE8AC4D296574B3002712F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE8AC5D296574B6002712F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE8AC67296574B6002712F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE8AC47296574B3002712F9 = {
+			isa = PBXGroup;
+			children = (
+				FDE8AC52296574B3002712F9 /* Spotifly */,
+				FDE8AC63296574B6002712F9 /* SpotiflyTests */,
+				FDE8AC6D296574B6002712F9 /* SpotiflyUITests */,
+				FDE8AC51296574B3002712F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE8AC51296574B3002712F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE8AC50296574B3002712F9 /* Spotifly.app */,
+				FDE8AC60296574B6002712F9 /* SpotiflyTests.xctest */,
+				FDE8AC6A296574B6002712F9 /* SpotiflyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE8AC52296574B3002712F9 /* Spotifly */ = {
+			isa = PBXGroup;
+			children = (
+				FDE8AC53296574B3002712F9 /* SpotiflyApp.swift */,
+				FDE8AC55296574B3002712F9 /* ContentView.swift */,
+				FDE8AC7D29657646002712F9 /* splashScreen.swift */,
+				FDE8AC57296574B5002712F9 /* Assets.xcassets */,
+				FDE8AC59296574B5002712F9 /* Preview Content */,
+			);
+			path = Spotifly;
+			sourceTree = "<group>";
+		};
+		FDE8AC59296574B5002712F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDE8AC5A296574B5002712F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDE8AC63296574B6002712F9 /* SpotiflyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE8AC64296574B6002712F9 /* SpotiflyTests.swift */,
+			);
+			path = SpotiflyTests;
+			sourceTree = "<group>";
+		};
+		FDE8AC6D296574B6002712F9 /* SpotiflyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE8AC6E296574B6002712F9 /* SpotiflyUITests.swift */,
+				FDE8AC70296574B6002712F9 /* SpotiflyUITestsLaunchTests.swift */,
+			);
+			path = SpotiflyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE8AC4F296574B3002712F9 /* Spotifly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE8AC74296574B6002712F9 /* Build configuration list for PBXNativeTarget "Spotifly" */;
+			buildPhases = (
+				FDE8AC4C296574B3002712F9 /* Sources */,
+				FDE8AC4D296574B3002712F9 /* Frameworks */,
+				FDE8AC4E296574B3002712F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotifly;
+			productName = Spotifly;
+			productReference = FDE8AC50296574B3002712F9 /* Spotifly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE8AC5F296574B6002712F9 /* SpotiflyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE8AC77296574B6002712F9 /* Build configuration list for PBXNativeTarget "SpotiflyTests" */;
+			buildPhases = (
+				FDE8AC5C296574B6002712F9 /* Sources */,
+				FDE8AC5D296574B6002712F9 /* Frameworks */,
+				FDE8AC5E296574B6002712F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE8AC62296574B6002712F9 /* PBXTargetDependency */,
+			);
+			name = SpotiflyTests;
+			productName = SpotiflyTests;
+			productReference = FDE8AC60296574B6002712F9 /* SpotiflyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDE8AC69296574B6002712F9 /* SpotiflyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE8AC7A296574B6002712F9 /* Build configuration list for PBXNativeTarget "SpotiflyUITests" */;
+			buildPhases = (
+				FDE8AC66296574B6002712F9 /* Sources */,
+				FDE8AC67296574B6002712F9 /* Frameworks */,
+				FDE8AC68296574B6002712F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE8AC6C296574B6002712F9 /* PBXTargetDependency */,
+			);
+			name = SpotiflyUITests;
+			productName = SpotiflyUITests;
+			productReference = FDE8AC6A296574B6002712F9 /* SpotiflyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE8AC48296574B3002712F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FDE8AC4F296574B3002712F9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FDE8AC5F296574B6002712F9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FDE8AC4F296574B3002712F9;
+					};
+					FDE8AC69296574B6002712F9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FDE8AC4F296574B3002712F9;
+					};
+				};
+			};
+			buildConfigurationList = FDE8AC4B296574B3002712F9 /* Build configuration list for PBXProject "Spotifly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE8AC47296574B3002712F9;
+			productRefGroup = FDE8AC51296574B3002712F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE8AC4F296574B3002712F9 /* Spotifly */,
+				FDE8AC5F296574B6002712F9 /* SpotiflyTests */,
+				FDE8AC69296574B6002712F9 /* SpotiflyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE8AC4E296574B3002712F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE8AC5B296574B5002712F9 /* Preview Assets.xcassets in Resources */,
+				FDE8AC58296574B5002712F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE8AC5E296574B6002712F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE8AC68296574B6002712F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE8AC4C296574B3002712F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE8AC7E29657646002712F9 /* splashScreen.swift in Sources */,
+				FDE8AC56296574B3002712F9 /* ContentView.swift in Sources */,
+				FDE8AC54296574B3002712F9 /* SpotiflyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE8AC5C296574B6002712F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE8AC65296574B6002712F9 /* SpotiflyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE8AC66296574B6002712F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE8AC71296574B6002712F9 /* SpotiflyUITestsLaunchTests.swift in Sources */,
+				FDE8AC6F296574B6002712F9 /* SpotiflyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE8AC62296574B6002712F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE8AC4F296574B3002712F9 /* Spotifly */;
+			targetProxy = FDE8AC61296574B6002712F9 /* PBXContainerItemProxy */;
+		};
+		FDE8AC6C296574B6002712F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE8AC4F296574B3002712F9 /* Spotifly */;
+			targetProxy = FDE8AC6B296574B6002712F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDE8AC72296574B6002712F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDE8AC73296574B6002712F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE8AC75296574B6002712F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotifly/Preview Content\"";
+				DEVELOPMENT_TEAM = V2562V4XS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ngori.Spotifly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE8AC76296574B6002712F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotifly/Preview Content\"";
+				DEVELOPMENT_TEAM = V2562V4XS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ngori.Spotifly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDE8AC78296574B6002712F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2562V4XS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ngori.SpotiflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotifly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spotifly";
+			};
+			name = Debug;
+		};
+		FDE8AC79296574B6002712F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2562V4XS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ngori.SpotiflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotifly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spotifly";
+			};
+			name = Release;
+		};
+		FDE8AC7B296574B6002712F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2562V4XS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ngori.SpotiflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spotifly;
+			};
+			name = Debug;
+		};
+		FDE8AC7C296574B6002712F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2562V4XS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ngori.SpotiflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spotifly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE8AC4B296574B3002712F9 /* Build configuration list for PBXProject "Spotifly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE8AC72296574B6002712F9 /* Debug */,
+				FDE8AC73296574B6002712F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE8AC74296574B6002712F9 /* Build configuration list for PBXNativeTarget "Spotifly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE8AC75296574B6002712F9 /* Debug */,
+				FDE8AC76296574B6002712F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE8AC77296574B6002712F9 /* Build configuration list for PBXNativeTarget "SpotiflyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE8AC78296574B6002712F9 /* Debug */,
+				FDE8AC79296574B6002712F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE8AC7A296574B6002712F9 /* Build configuration list for PBXNativeTarget "SpotiflyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE8AC7B296574B6002712F9 /* Debug */,
+				FDE8AC7C296574B6002712F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE8AC48296574B3002712F9 /* Project object */;
+}
